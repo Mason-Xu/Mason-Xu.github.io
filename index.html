@@ -1,114 +1,144 @@
 
-<!DOCTYPE HTML>
-<!--
-	Multiverse by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html lang="zh-cn">
-<head>
-    <title>Ma5on的小站</title>
-<meta name="keywords" content="" />
-<meta name="description" content="温故而知新" />
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-<base href="http://mason-xu.github.io/">
-<link rel="shortcut icon" href="favicon.ico" />
-
-<link rel="stylesheet" href="media/css/main-multiverse.css" />
-<link rel="stylesheet" href="media/css/modify-multiverse.css" />
-<noscript><link rel="stylesheet" href="media/css/noscript-multiverse.css" /></noscript>
-
-
-
-</head>
-<body class="is-preload">
-
-<!-- 外封 -->
-<div id="wrapper">
-
-    <!-- 页眉 -->
-    <header id="header">
+<html>
+  <head>
     
-    <h1><strong>Ma5on的小站</strong> 由 <a href="https://html5up.net">HTML5 UP</a> 设计样式。</h1>
-    <nav>
-        <ul>
-            
-            
-            <li><a href="#footer" class="icon solid fa-info-circle">关于</a></li>
-        </ul>
-    </nav>
-    
-</header>
+<meta charset="utf-8" >
 
-    <!-- 主要内容 -->
-    
-<main id="main">
-    
-    <article class="thumb">
+<title>Ma5on的小站</title>
+<meta name="description" content="温故而知新">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="shortcut icon" href="http://mason-xu.github.io/favicon.ico?v=1691402757383">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="http://mason-xu.github.io/styles/main.css">
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@11.5.1/build/highlight.min.js"></script>
+
+
+
+  </head>
+  <body>
+    <div id="app" class="main">
+      <div class="site-header-container">
+  <div class="site-header">
+    <div class="left">
+      <a href="http://mason-xu.github.io">
+        <img class="avatar" src="http://mason-xu.github.io/images/avatar.png?v=1691402757383" alt="" width="32px" height="32px">
+      </a>
+      <a href="http://mason-xu.github.io">
+        <h1 class="site-title">Ma5on的小站</h1>
+      </a>
+    </div>
+    <div class="right">
+      <transition name="fade">
+        <i class="icon" :class="{ 'icon-close-outline': menuVisible, 'icon-menu-outline': !menuVisible }" @click="menuVisible = !menuVisible"></i>
+      </transition>
+    </div>
+  </div>
+</div>
+
+<transition name="fade">
+  <div class="menu-container" style="display: none;" v-show="menuVisible">
+    <div class="menu-list">
+      
         
-        <h2>关于</h2>
-        <blockquote>
-<p>欢迎来到我的小站呀，很高兴遇见你！🤝</p>
-</blockquote>
-<h2 id="关于本站">🏠 关于本站</h2>
-<p>ma5onxu的图文小站</p>
-<h2 id="博主是谁">👨‍💻 博主是谁</h2>
-<p>爱好摄影</p>
-<h2 id="兴趣爱好">⛹ 兴趣爱好</h2>
-<p>SQUAD，摄影，没事</p>
-<h2 id="联系我呀">📬 联系我呀</h2>
-<p>masonxu1997@163.com</p>
+          <a href="/" class="menu purple-link">
+            首页
+          </a>
+        
+      
+        
+          <a href="/archives" class="menu purple-link">
+            归档
+          </a>
+        
+      
+        
+          <a href="/tags" class="menu purple-link">
+            标签
+          </a>
+        
+      
+        
+          <a href="/post/about" class="menu purple-link">
+            关于
+          </a>
+        
+      
+    </div>
+  </div>
+</transition>
 
-    </article>
-    
-</main>
 
-
-    <!-- 页脚 -->
-    
-<footer id="footer" class="panel">
-    
-    <div class="inner split">
-        <div>
-            <section>
-                <h2>关于</h2>
-                <p>温故而知新</p>
-            </section>
-            <section>
-                <h2>求订阅我的...</h2>
-                <ul class="icons">
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                        
-                    
-                </ul>
-            </section>
-            <p class="copyright">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a></p>
-        </div>
+      <div class="content-container">
+        
+        
+<section class="post-item">
+    <div class="content">
+      <a href="http://mason-xu.github.io/post/about">
+        <h2 class="post-title">关于</h2>
+      </a>
+      <div class="post-abstract">
+        
+      </div>
+      <div class="post-info">
+        <span><i class="icon icon-calendar-outline"></i> 2023-08-07</span>
+        
+      </div>
     </div>
     
-</footer>
+  </section>
 
+
+<div class="pagination-container">
+  
+  
 </div>
 
 
-<!-- 脚本 -->
+      </div>
 
-<script src="media/scripts/jquery.min.js"></script>
-<script src="media/scripts/jquery.poptrox.min.js"></script>
-<script src="media/scripts/browser.min.js"></script>
-<script src="media/scripts/breakpoints.min.js"></script>
-<script src="media/scripts/util-multiverse.js"></script>
-<script src="media/scripts/main-multiverse.js"></script>
+      <div class="site-footer">
+  <div class="slogan">温故而知新</div>
+  <div class="social-container">
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+  </div>
+  Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="http://mason-xu.github.io/atom.xml" target="_blank">RSS</a>
+</div>
 
 
-</body>
+    </div>
+    <script type="application/javascript">
+
+hljs.initHighlightingOnLoad()
+
+var app = new Vue({
+  el: '#app',
+  data: {
+    menuVisible: false,
+  },
+})
+
+</script>
+
+
+
+
+  </body>
 </html>
