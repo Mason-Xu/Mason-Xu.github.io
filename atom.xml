@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://mason-xu.github.io</id>
     <title>Ma5on的小站</title>
-    <updated>2023-08-07T10:06:01.498Z</updated>
+    <updated>2023-08-08T01:57:10.984Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="http://mason-xu.github.io"/>
     <link rel="self" href="http://mason-xu.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>http://mason-xu.github.io/images/avatar.png</logo>
     <icon>http://mason-xu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2023, Ma5on的小站</rights>
+    <entry>
+        <title type="html"><![CDATA[aa]]></title>
+        <id>http://mason-xu.github.io/post/aa</id>
+        <link href="http://mason-xu.github.io/post/aa">
+        </link>
+        <updated>2023-08-08T01:54:01.000Z</updated>
+        <summary type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://mason-xu.github.io/post-images/1691459646681.jpg" alt=""></figure>
+]]></summary>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://mason-xu.github.io/post-images/1691459646681.jpg" alt=""></figure>
+<!-- more -->
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[一些]]></title>
+        <id>http://mason-xu.github.io/post/yi-xie</id>
+        <link href="http://mason-xu.github.io/post/yi-xie">
+        </link>
+        <updated>2023-08-08T01:47:32.000Z</updated>
+        <content type="html"><![CDATA[<figure data-type="image" tabindex="1"><img src="http://mason-xu.github.io/post-images/1691459278653.jpg" alt=""></figure>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[关于]]></title>
         <id>http://mason-xu.github.io/post/about</id>
